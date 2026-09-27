@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store":
+
+# Streamlit Local Cache
+.streamlit/
+
+# Large Test Video Files (Optional - uncomment if videos are >100MB)
+# *.mp4
+# *.avi

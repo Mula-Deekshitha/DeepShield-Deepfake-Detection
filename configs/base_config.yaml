@@ -1,0 +1,15 @@
+project_name: "DeepShield"
+model:
+  embed_dim: 256
+  num_landmarks: 468
+  sequence_length: 5
+
+training:
+  batch_size: 16
+  learning_rate: 0.0001
+  epochs: 20
+  mixed_precision: true
+
+export:
+  onnx_path: "export/deepshield.onnx"
+  quantized_onnx_path: "export/deepshield_quantized.onnx"
